@@ -1,0 +1,136 @@
+/* styles.css — отдельный файл со стилями */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e9eef3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+/* Основной Grid контейнер — вся страница */
+.app-grid {
+    display: grid;
+    grid-template-rows: auto 1fr auto ;  /* шапка, контент, футер */
+    min-height: 100vh;  /* min-height — минимальная высота элемента  100% высоты окна браузера (видимой области) */
+}
+
+.Grid{
+    margin-top: 1.5rem;
+    padding: 1rem; 
+    background:rgba(255,255,255,0.2);
+    border-radius: 12px;
+
+}
+/* Двухколоночная область: сайдбар 300px + основной контент на всю оставшуюся ширину */
+.content-row {
+    display: grid;
+    grid-template-columns: 300px 1fr;  /* ключевое требование: фиксированная ширина 300px */
+}
+
+/* ========== СТИЛИ ДЛЯ КАЖДОГО БЛОКА ========== */
+/* У каждого элемента свой цвет фона и черная рамка 1px */
+
+.page-header {
+    background-color: #FFB74D;    /* оранжевый */
+    border: 1px solid #000000;
+    padding: 1.5rem 2rem;
+    /*       ↑      ↑
+    верх/низ  право/лево */
+    /* Относится к размеру шрифта корневого элемента (<html>)
+
+Не зависит от родительских элементов
+
+По умолчанию: 1rem = 16px (если не менять базовый размер) */
+}
+
+.page-header h1 {
+    font-size: 2rem;
+    color: #1e2a2f;
+}
+
+.sidebar {
+    background-color: #81C784;    /* зеленый */
+    border: 1px solid #000000;
+    padding: 1.8rem .6rem;
+}
+
+.sidebar h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+    color: #1f3b21;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin: 1rem 0;
+    padding: 0.6rem;
+    background: rgba(0,0,0,0.05);
+    border-radius: 8px;
+    font-size: 1.1rem;
+    transition: all 0.2s;
+}
+
+.sidebar li:hover {
+    background: rgba(0,0,0,0.12);
+    cursor: default;
+}
+
+.main-content {
+    background-color: #64B5F6;    /* голубой */
+    border: 1px solid #000000;
+    padding: 1.8rem 2rem;
+}
+
+.main-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #0d2c40;
+}
+
+.main-content p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.main-content code {
+    background: rgba(0,0,0,0.1);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+.page-footer {
+    background-color: #F06292;    /* розовый */
+    border: 1px solid #000000;
+    padding: 1.2rem;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 700px) {
+    .content-row {
+        grid-template-columns: 150px 1fr;   
+    }
+    
+    .sidebar {
+        width: 100%;
+    }
+    
+    .page-header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .main-content h2 {
+        font-size: 1.4rem;
+    }
+}
