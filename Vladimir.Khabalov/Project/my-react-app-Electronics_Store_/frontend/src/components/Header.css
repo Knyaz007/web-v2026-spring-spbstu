@@ -1,0 +1,317 @@
+/* Header/login */
+.header {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;  */
+
+  position: relative;
+  width: 100%; 
+  /* height: 80px; */
+ 
+}
+
+/* Rectangle 4 */
+/* .header::before {
+  content: '';
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #FFFFFF;
+} */
+
+/* Gadget Hub */
+.gadget-hub {  
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #115EFB;
+  padding: 10px;
+  margin-left: 10px;; 
+}
+
+
+.header a,           /*  - обычная ссылка (все состояния) */
+.header a:link,        /* - непосещенная ссылка*/
+.header a:visited,     /* - ПОСЕЩЕННАЯ ссылка (ваша проблема!)*/
+.header a:hover,       /* - ссылка при наведении мыши*/
+.header a:active {    /*  - ссылка в момент клика */
+color: inherit;        /*- наследует цвет от родительского элемента (не синий)*/
+text-decoration: none; /* - убирает подчеркивание*/
+background-color: transparent; /* - убирает фоновый цвет*/
+}
+
+/* Button text - Catalog */
+.button-catalog {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 12px;
+  position: relative;
+  width: 132px; 
+  /* height: 48px; */
+  margin-left: auto;
+  /* top: 16px; */
+  background: #F3F6FA;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 80%;
+  margin-top: auto;
+}
+
+/* Icon/Catalog */
+.icon-catalog {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.rect-1197 {
+  position: absolute;
+  left: 0%;
+  right: 56.25%;
+  top: 0%;
+  bottom: 56.25%;
+  background: #115EFB;
+  border-radius: 2px;
+}
+  .rect-1198 {
+  position: absolute;
+  left: 56.25%;
+  right: 0%;
+  top: 0%;
+  bottom: 56.25%;
+  background: #115EFB;
+  border-radius: 2px;
+}
+
+.rect-1199 {
+  position: absolute;
+  left: 0%;
+  right: 56.25%;
+  top: 56.25%;
+  bottom: 0%;
+  background: #115EFB;
+  border-radius: 2px;
+}
+
+.rect-1200 {
+  position: absolute;
+  left: 56.25%;
+  right: 0%;
+  top: 56.25%;
+  bottom: 0%;
+  background: #115EFB;
+  border-radius: 2px;
+}
+
+.catalog-text {
+  width: 64px;
+  height: 24px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #115EFB;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+/* Button text - Profile */
+.button-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 12px;
+  position: relative;
+  margin-left: 10px; 
+  /* position: absolute;
+  width: 120px;
+  height: 48px;
+  left: 1469px;
+  top: 16px; */
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* Button text - Login */
+.button-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 12px;
+  position: relative;
+  margin-left: 10px;
+  /* position: absolute;
+  width: 172px;
+  height: 48px;
+  left: 1297px;
+  top: 16px;
+  border-radius: 8px;
+  cursor: pointer; */
+}
+
+
+
+/* Icon/Profile */
+.icon-profile {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.vector-top {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 0%;
+  bottom: 50%;
+  background: #115EFB;
+}
+
+.vector-bottom {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 50%;
+  bottom: 0%;
+  background: #115EFB;
+}
+
+.login-text {
+  width: 68px;
+  height: 24px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #115EFB;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.profile-text {
+  width: 52px;
+  height: 24px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #115EFB;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+} */
+
+/* Icon/Circle */
+  .icon-circle {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+} */
+
+/* Hover effects */
+.button-catalog:hover,
+.button-login:hover,
+.button-profile:hover {
+  opacity: 0.8;
+}  
+
+
+/* Button text - Cart (корзина) */
+.button-cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 12px;
+  position: relative;
+  margin-left: 10px;
+  background: #F3F6FA;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 80%;
+  margin-top: auto;
+}
+
+/* Icon/Cart */
+.icon-cart {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-text {
+  width: 60px;
+  height: 24px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #115EFB;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Бейдж с количеством товаров */
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #FF4444;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Rubik';
+}
+
+
+
+/* Добавляем hover для корзины */
+.button-cart:hover,
+.button-login:hover,
+.button-profile:hover {
+  opacity: 0.8;
+}
+
+
+
