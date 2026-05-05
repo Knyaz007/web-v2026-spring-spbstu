@@ -1,0 +1,82 @@
+/* Сортировка */
+.sorting-container {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+/* Каталог товаров */
+.catalog-title {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+
+/* Контейнер для кнопок */
+.sort-buttons {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Общие стили для кнопок */
+.sort-btn {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 0;
+  color: #115EFB;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* Стили для активной кнопки */
+.sort-btn.active {
+  background: #84ADFF;
+  border-radius: 6px;
+  padding: 8px 16px;
+  color: #FFFFFF;
+  margin: -8px -16px;
+}
+
+/* Пунктирная линия под активной кнопкой */
+.sort-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  right: 0;
+  height: 0px;
+  border: 1px dashed #115EFB;
+}
+
+/* Анимация при наведении */
+.sort-btn:hover {
+  opacity: 0.8;
+}
+
+.sort-btn.active:hover {
+  opacity: 0.9;
+}
+
+
+.catalog-title {
+  font-family: Rubik, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #000000;
+  margin: 0;
+}

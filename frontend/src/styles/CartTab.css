@@ -1,0 +1,15 @@
+.empty-cart{
+display: flex;
+flex-direction: column;
+
+}
+.Linki{
+display: inline;
+/* background-color: #F3F6FA; */
+
+}
+ 
+/* .empty-cart-link:hover{
+background-color: #F3F6FA;
+color: #115EFB;
+} */

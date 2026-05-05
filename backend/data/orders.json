@@ -1,0 +1,206 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "date": "2026-04-21T18:28:15.258Z",
+    "items": [
+      {
+        "id": 29,
+        "name": "Умная лампа",
+        "price": 3990,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "userId": 1,
+    "date": "2026-04-21T19:23:35.581Z",
+    "items": [
+      {
+        "id": 30,
+        "name": "Аппаратный ключ аутентификации NFC",
+        "price": 4490,
+        "quantity": 1,
+        "image": "/images/goods/image_30.png"
+      }
+    ],
+    "total": 4490,
+    "customerInfo": {
+      "email": "dorm17@spbstu.ru",
+      "phone": "+79671352147",
+      "deliveryType": "delivery",
+      "address": "Советская 3Косимово, Московская область",
+      "payment": "cash",
+      "needPackaging": false
+    }
+  },
+  {
+    "id": 3,
+    "userId": 1,
+    "date": "2026-05-01T15:14:03.726Z",
+    "items": [
+      {
+        "id": 30,
+        "name": "Аппаратный ключ аутентификации NFC",
+        "price": 4490,
+        "quantity": 3,
+        "image": "/images/goods/image_30.png"
+      }
+    ],
+    "total": 13470,
+    "customerInfo": {
+      "email": "y-men.y-men.y-men@mail.ru",
+      "phone": "+79671352147",
+      "deliveryType": "pickup",
+      "address": "",
+      "payment": "card",
+      "needPackaging": true
+    }
+  },
+  {
+    "id": 4,
+    "userId": 1,
+    "date": "2026-05-04T18:03:41.391Z",
+    "items": [
+      {
+        "id": 9,
+        "name": "Беспроводная акустика",
+        "price": 4990,
+        "quantity": 1,
+        "image": "/images/goods/image_9.png"
+      }
+    ],
+    "total": 4990,
+    "customerInfo": {
+      "email": "y-men.y-men.y-men@mail.ru",
+      "phone": "+79671352147",
+      "deliveryType": "pickup",
+      "address": "",
+      "payment": "cash",
+      "needPackaging": true
+    }
+  },
+  {
+    "id": 5,
+    "userId": 1,
+    "date": "2026-05-04T18:04:32.893Z",
+    "items": [
+      {
+        "id": 30,
+        "name": "Аппаратный ключ аутентификации NFC",
+        "price": 4490,
+        "quantity": 3,
+        "image": "/images/goods/image_30.png"
+      },
+      {
+        "id": 29,
+        "name": "Умная лампа",
+        "price": 3990,
+        "quantity": 4,
+        "image": "/images/goods/image_29.png"
+      }
+    ],
+    "total": 29430,
+    "customerInfo": {
+      "email": "dorm17@spbstu.ru",
+      "phone": "+79671352147",
+      "deliveryType": "pickup",
+      "address": "",
+      "payment": "card",
+      "needPackaging": false
+    }
+  },
+  {
+    "id": 6,
+    "userId": 1,
+    "date": "2026-05-05T16:03:08.555Z",
+    "items": [
+      {
+        "id": 29,
+        "name": "Умная лампа",
+        "price": 3990,
+        "quantity": 3,
+        "image": "/uploads/goods/image_29.png"
+      }
+    ],
+    "total": 11970,
+    "customerInfo": {
+      "email": "y-men.y-men.y-men@mail.ru",
+      "phone": "+79671352147",
+      "deliveryType": "pickup",
+      "address": "",
+      "payment": "card",
+      "needPackaging": true
+    }
+  },
+  {
+    "id": 7,
+    "userId": 1,
+    "date": "2026-05-05T16:05:21.410Z",
+    "items": [
+      {
+        "id": 31,
+        "name": "Аппаратный криптокошелек",
+        "price": 7990,
+        "quantity": 1,
+        "image": "/uploads/goods/image_31.png"
+      }
+    ],
+    "total": 7990,
+    "customerInfo": {
+      "email": "y-men.y-men.y-men@mail.ru",
+      "phone": "+79671352147",
+      "deliveryType": "pickup",
+      "address": "",
+      "payment": "cash",
+      "needPackaging": false
+    }
+  },
+  {
+    "id": 8,
+    "userId": 1,
+    "date": "2026-05-05T16:12:58.808Z",
+    "items": [
+      {
+        "id": 21,
+        "name": "Микрофон с разъемом Type-C",
+        "price": 3990,
+        "quantity": 1,
+        "image": "/uploads/goods/image_21.png"
+      }
+    ],
+    "total": 3990,
+    "customerInfo": {
+      "email": "y-men.y-men.y-men@mail.ru",
+      "phone": "+79671352147",
+      "deliveryType": "pickup",
+      "address": "",
+      "payment": "card",
+      "needPackaging": false
+    }
+  },
+  {
+    "id": 9,
+    "userId": 1,
+    "date": "2026-05-05T16:13:32.872Z",
+    "items": [
+      {
+        "id": 30,
+        "name": "Аппаратный ключ аутентификации NFC",
+        "price": 4490,
+        "quantity": 1,
+        "image": "/uploads/goods/image_30.png"
+      }
+    ],
+    "total": 4490,
+    "customerInfo": {
+      "email": "y-men.y-men.y-men@mail.ru",
+      "phone": "+79671352147",
+      "deliveryType": "pickup",
+      "address": "",
+      "payment": "card",
+      "needPackaging": false
+    }
+  }
+]
