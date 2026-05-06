@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книжный интернет-магазин - Каталог</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📚 Книжный интернет-магазин</h1>
+            <p>Каталог книг в виде дерева</p>
+        </div>
+        
+        <div class="catalog">
+            <div class="controls">
+                <button class="btn" id="expandAllBtn">📂 Развернуть всё</button>
+                <button class="btn btn-secondary" id="collapseAllBtn">📁 Свернуть всё</button>
+                <button class="btn btn-warning" id="resetBtn">🔄 Сбросить</button>
+            </div>
+            
+            <div class="tree" id="tree"></div>
+            
+            <div class="stats" id="stats"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
