@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор выражений</title>
+
+</head>
+<body>
+    <h1>Калькулятор математических выражений</h1>
+    <p>Поддерживает: +, -, *, / и приоритет операций</p>
+    
+    <div>
+        <label for="expression">Введите выражение:</label><br>
+        <input type="text" id="expression" value="2 + 3 * 4" style="width: 300px; padding: 5px;">
+    </div>
+    <br>
+    
+    <div>
+        <button onclick="calculate()">Вычислить</button>
+        <button onclick="clearInput()">Очистить</button>
+    </div>
+    <br>
+    
+    <div>
+        <strong>Результат:</strong> <span id="result">—</span>
+    </div>
+    
+    <div id="error" style="color: red;"></div>
+    <br>
+    
+    <div>
+        <strong>Примеры:</strong><br>
+        <button onclick="setExample('2 + 3 * 4')">2 + 3 * 4</button>
+        <button onclick="setExample('10 - 2 * 3')">10 - 2 * 3</button>
+        <button onclick="setExample('20 / 4 + 3')">20 / 4 + 3</button>
+        <button onclick="setExample('5 * 3 - 8 / 2')">5 * 3 - 8 / 2</button>
+        <button onclick="setExample('2.5 * 2 + 1.5')">2.5 * 2 + 1.5</button>
+        <button onclick="setExample('10 / 2 * 3')">10 / 2 * 3</button>
+    </div>
+
+<script src="script.js"> </script>  <!-- Подключение отдельного CSS файла -->    
+</body>
+</html>
